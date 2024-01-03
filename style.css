@@ -1,0 +1,87 @@
+@import url(instagram.com);
+
+   * {
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: green;
+}
+
+.wrapper {
+    width: 420px;
+    background: transparent;
+    border: 1px solid #fff;
+    opacity: 0.6;
+    color: white;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+
+}
+
+.wrapper .input-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 80%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(225, 225, 225, .2);
+    border-radius: 5%;
+}
+
+.input-box input:hover{
+    border: 2px solid white;
+    background-color: red;
+}
+
+.remember-forgot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn{
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.btn button{
+width: 60%;
+padding: 5px;
+margin-top: 10px;
+}
+
+.btn button:hover{
+    border: 2px solid greenyellow;
+    background-color: aqua;
+}
+
+.register-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
